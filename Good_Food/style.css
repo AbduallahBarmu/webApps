@@ -1,0 +1,75 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.row {
+  max-width: 1140px;
+  margin: 0 auto;
+}
+body {
+  font-family: tahoma;
+}
+
+.hero {
+  position: absolute;
+  width: 1140px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+header {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+    url(./image/img6.jpg);
+  height: 100vh;
+  background-position: center;
+  background-size: cover;
+}
+h1 {
+  color: white;
+}
+
+.main-nav {
+  list-style: none;
+  float: right;
+  margin-top: 60px;
+}
+.main-nav li {
+  display: inline-block;
+  margin-left: 20px;
+}
+.main-nav li a {
+  color: white;
+  text-decoration: none;
+  font-size: 90%;
+  font-weight: bold;
+}
+.main-nav li a:hover {
+  color: #e67e22;
+  border-bottom: 2px solid #e67e22;
+  transition: all 0.5s ease-in;
+  padding: 15px;
+}
+
+.logo img {
+  height: 100px;
+  float: left;
+  margin-top: 30px;
+}
+
+.btn {
+  border: 1px solid #e67e22;
+  padding: 10px 30px;
+  color: #e67e22;
+  text-decoration: none;
+  border-radius: 12px;
+  margin-right: 20px;
+}
+.button-awesome {
+  margin-top: 50px;
+}
+
+.btn-full-half:hover {
+  background-color: #e67e22;
+  color: white;
+  transition: all 0.5s ease-in;
+}
