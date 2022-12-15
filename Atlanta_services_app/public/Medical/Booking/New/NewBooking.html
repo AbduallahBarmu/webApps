@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="Style.css">
+
+<!-- CSS Bootstrab only  -->
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+
+
+</head>
+<body >
+  <!-- Navbar  -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="#">Atlanta Service</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#NavDropdown" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"> </span>
+        </button>
+        <div class="collapse navbar-collapse" id="NavDropdown">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item active">
+              <a class="nav-link" href="../Home.html">Home <span class="sr-only">(current)</span></a>
+            </li>
+
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                My Booking
+              </a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                <a class="dropdown-item" href="#">Cancel Book</a>
+                <a class="dropdown-item" href="#">Change Book</a>
+              </div>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Feedback</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Settings</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Log Out</a>
+            </li>
+        </ul>
+    </div>
+</nav>
+<br>
+<!-- Navbar End -->
+
+<div class="row">
+  <div class="col-75">
+    <div class="container">
+      <div class="alert alert-danger mr-10" role="alert"><p class="title">New Booking Registration</p></div>
+      <form class="docForm">
+       <div class="row">
+          <div class="col-50">
+            <h3>Sample information</h3>
+            <label for="fname"><i class="fa fa-user"></i> Full Name</label>
+            <input type="text" id="fname" name="firstname" placeholder="John M. sina">
+            <label for="Phone"><i class="fa fa-envelope"></i> Phone</label>
+            <input type="text" id="Phone" name="Phone" placeholder="+90 531 123 11 11 ">
+            <label for="adr"><i class="fa fa-address-card-o"></i> Address</label>
+            <input type="text" id="adr" name="address" placeholder="542 W. 15th Street">
+            <label for="city"><i class="fa fa-institution"></i> City</label>
+            <input type="text" id="city" name="city" placeholder="Istanbul">
+
+            <div class="row">
+              <div class="col-50">
+                <label for="state">Gender</label>
+                <input type="text" id="state" name="state" placeholder="M/F">
+              </div>
+
+            </div>
+          </div>
+
+          <div class="col-50">
+            <h3>Payment Method </h3>
+            <label for="fname">Accepted Cards</label>
+            <div class="icon-container">
+              <i class="fa fa-cc-visa" style="color:navy;"></i>
+              <i class="fa fa-cc-amex" style="color:blue;"></i>
+              <i class="fa fa-cc-mastercard" style="color:red;"></i>
+              <i class="fa fa-cc-discover" style="color:orange;"></i>
+            </div>
+            <label for="cname">Card Type </label>
+            <input type="text" id="cname" name="cardname" placeholder="John More Doe">
+            <label for="ccnum"> Card number</label>
+            <input type="text" id="ccnum" name="cardnumber" placeholder="1111-2222-3333-4444">
+            <label for="expmonth">Exp Month</label>
+            <input type="text" id="expmonth" name="expmonth" placeholder="September">
+            <div class="row">
+              <div class="col-50">
+                <label for="expyear">Exp Year</label>
+                <input type="text" id="expyear" name="expyear" placeholder="2018">
+              </div>
+              <div class="col-50">
+                <label for="cvv">CVV</label>
+                <input type="text" id="cvv" name="cvv" placeholder="352">
+              </div>
+            </div>
+          </div>
+
+        </div>
+        <label>
+          <input type="checkbox" checked="checked" name="sameadr"> Agreed Of This Information
+        </label>
+        <input type="submit" value="Send" class="btn">
+        <input type="submit" value="Reset" class="btn">
+      </form>
+    </div>
+  </div>
+  <div class="col-25">
+    <div class="container">
+      <h4>Today Time Selection <span class="time" style="color:black"> <i class="fas fa-calendar-check"></i></span></h4>
+      <table>
+        <tr>
+          <td><button class="Tbtn" type="button" name="button">Time</button></td>
+          <td><button class="Tbtn" type="button" name="button">Time</button></td>
+          <td><button class="Tbtn" type="button" name="button">Time</button></td>
+        </tr>
+        <tr>
+          <td><button class="Tbtn" type="button" name="button">Time</button></td>
+          <td><button class="Tbtn" type="button" name="button">Time</button></td>
+          <td><button class="Tbtn" type="button" name="button">Time</button></td>
+        </tr>
+        <tr>
+          <td><button class="Tbtn" type="button" name="button">Time</button></td>
+          <td><button class="Tbtn" type="button" name="button">Time</button></td>
+          <td><button class="Tbtn" type="button" name="button">Time</button></td>
+        </tr>
+        <tr>
+          <td><button class="Tbtn" type="button" name="button">Time</button></td>
+          <td><button class="Tbtn" type="button" name="button">Time</button></td>
+          <td><button class="Tbtn" type="button" name="button">Time</button></td>
+        </tr>
+      </table>
+       <br>
+      <h4>Tomorrow Time Selection <span class="time" style="color:black"> <i class="fas fa-calendar-check"></i></span></h4>
+      <table>
+        <tr>
+          <td><button class="Tbtn" type="button" name="button">10 Am</button></td>
+          <td><button class="Tbtn" type="button" name="button">10:30 Am</button></td>
+          <td><button class="Tbtn" type="button" name="button">12 AM</button></td>
+        </tr>
+        <tr>
+          <td><button class="Tbtn" type="button" name="button">5:30 BM</button></td>
+          <td><button class="Tbtn" type="button" name="button">6 BM</button></td>
+          <td><button class="Tbtn" type="button" name="button">7 BM</button></td>
+        </tr>
+        <tr>
+          <td><button class="Tbtn" type="button" name="button">8 BM</button></td>
+          <td><button class="Tbtn" type="button" name="button">8:30 BM</button></td>
+          <td><button class="Tbtn" type="button" name="button">9 BM</button></td>
+        </tr>
+        <tr>
+          <td><button class="Tbtn" type="button" name="button">Time</button></td>
+          <td><button class="Tbtn" type="button" name="button">Time</button></td>
+          <td><button class="Tbtn" type="button" name="button">Time</button></td>
+        </tr>
+      </table>
+    </div>
+  </div>
+</div>
+
+<footer>
+
+</footer>
+
+
+</body>
+</html>

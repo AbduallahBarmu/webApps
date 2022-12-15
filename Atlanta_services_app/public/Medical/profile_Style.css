@@ -1,0 +1,50 @@
+
+html,body{
+  height: 100%;
+  width: 100%;
+}
+
+/*start  nav */
+.navbar{
+  background-color: #6C5B7B ;
+  padding: 1% 0;
+  font-size: 1.2em;
+}
+.navbar-brand{
+  min-height: 50px;
+  padding: 0 20px 5px;
+
+}
+
+/*problem */
+
+
+  #Header a:hover{
+  color: #fff;
+  }
+
+  #About{
+    margin-top: 3%;
+
+  }
+
+
+/*  problem*/
+  .fa{
+    color: black;
+    font-size: 25px;
+  }
+
+/*  problem can not see the last star */
+  .checked {
+    color: orange;
+  }
+
+  #About span{
+    padding: 10px 20px 10px 20px ;
+  }
+
+  #About hr{
+    border-width: 2px;
+    margin-top: 6px;
+  }

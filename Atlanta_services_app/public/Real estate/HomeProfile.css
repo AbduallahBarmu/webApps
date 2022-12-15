@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,700&display=swap');
+
+* {
+  box-sizing: border-box;
+  font-family: 'Montserrat', sans-serif;
+}
+
+body {
+  font-family: Arial;
+  font-size: 17px;
+  padding: 8px;
+
+}
+
+
+h4{
+  font-size: 20px;
+  color: #f64f59;
+  text-transform: uppercase;
+}
+
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+th, td {
+padding: 8px;
+text-align: left;
+border-bottom: 1px solid #ddd;
+}
+
+
+.col-5{
+  margin-left: 30px;
+  margin-top:50px;
+  width: 33.33%;
+  padding: 10px;
+  height: 300px;
+}
+
+ .col-3 {
+  float: left;
+  margin-left:30px;
+  margin-top: 50px;
+  margin-right: 10px;
+  width: 33.33%;
+  padding: 10px;
+  height: 500px;
+
+}
+
+
+.col-2{
+  float: left;
+  margin-left:40px;
+  margin-top: 50px;
+  margin-right:5px;
+  width: 33.33%;
+  padding: 10px;
+  height: 200px;
+
+}
+
+
+
+.container{
+  padding: 5px ;
+  width: 100%;
+  height: 100%;
+  background-color: #FAFFD1;
+
+}
+
+
+  .card{
+
+    height:100%;
+    width: 150%;
+    padding: 10px;
+
+  }
+
+.fa{
+    padding-right: 10px;
+    font-size: 24px;
+  }
+
+p{
+  padding: 10px 10px 10px 10px;
+}
+
+.card:hover {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;

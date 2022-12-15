@@ -1,0 +1,183 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,700&display=swap');
+
+* {
+  box-sizing: border-box;
+  font-family: 'Montserrat', sans-serif;
+}
+
+body {
+  font-family: Arial;
+  font-size: 17px;
+  padding: 8px;
+
+}
+
+/*start  nav */
+.navbar{
+  background-color: #6C5B7B ;
+  padding: 1% 0;
+  font-size: 1.2em;
+}
+.navbar-brand{
+  min-height: 50px;
+  padding: 0 20px 5px;
+
+}
+
+/*end  nav */
+
+h3 {
+  text-align:left;
+  font-size: 25px;
+  font-weight: 700;
+  margin-bottom: 35px;
+  color: #f64f59;
+  text-transform: uppercase;
+}
+h4{
+  font-size: 20px;
+  color: #f64f59;
+  text-transform: uppercase;
+}
+
+.custom_select{
+    position: relative;
+    width: 100%;
+    height: 42px;
+  }
+
+.custom_select:before{
+    content: "";
+    position: absolute;
+    top: 12px;
+    right: 10px;
+    border: 8px solid;
+    border-color: #d5dbd9 transparent transparent transparent;
+    pointer-events: none;
+  }
+
+
+.row {
+  display: -ms-flexbox; /* IE10 */
+  display: flex;
+  -ms-flex-wrap: wrap; /* IE10 */
+  flex-wrap: wrap;
+  margin: 0 -10px;
+}
+
+.col-25 {
+  -ms-flex: 25%; /* IE10 */
+  flex: 25%;
+}
+
+.col-50 {
+  -ms-flex: 50%; /* IE10 */
+  flex: 50%;
+}
+
+.col-75 {
+  -ms-flex: 75%; /* IE10 */
+  flex: 75%;
+}
+
+.col-25,
+.col-50,
+.col-75 {
+  padding: 0 16px;
+}
+
+.docForm{
+  background: #fff;
+
+}
+
+
+ .title{
+    font-size: 30px;
+    font-weight: 700;
+    margin-bottom: 25px ;
+    color: #f64f59;
+    text-transform: uppercase;
+    text-align: center;
+  }
+
+.container {
+  box-shadow: 2px 2px 4px rgba(0,0,0,0.125);
+  padding: 3px 18px 13px 18px;
+  border: 1px solid lightgrey;
+  border-radius: 3px;
+}
+
+input[type=text] {
+  width: 100%;
+  margin-bottom: 20px;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  border: 1px solid gray;
+
+}
+
+label {
+  margin-bottom: 10px;
+  display: block;
+}
+
+.icon-container {
+  margin-bottom: 20px;
+  padding: 7px 0;
+  font-size: 24px;
+}
+
+.btn {
+  background-color: #f64f59;
+  color: white;
+  padding: 12px;
+  margin: 10px 0;
+  border: none;
+  width: 100%;
+  border-radius: 3px;
+  cursor: pointer;
+  font-size: 17px;
+}
+
+.btn:hover {
+  background-color: #ec2F4B;
+}
+
+a {
+  color: #2196F3;
+}
+
+hr {
+  border: 1px solid lightgrey;
+}
+
+span.time {
+  float: right;
+  color: #f274;
+}
+
+/* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other (also change the direction - make the "cart" column go on top) */
+@media (max-width: 800px) {
+  .row {
+    flex-direction: column-reverse;
+  }
+  .col-25 {
+    margin-bottom: 20px;
+  }
+}
+
+/* */
+.Tbtn{
+  background-color:;
+  margin: 8px;
+  padding: 10px 10px ;
+  border-radius: 5px;
+  border-color:#f7797d;
+}
+
+
+.Tbtn:hover {
+  background-color:#FBD786;
+}

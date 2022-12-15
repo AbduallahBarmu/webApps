@@ -1,0 +1,97 @@
+html,body{
+  height: 100%;
+  width: 100%;
+}
+
+
+/*start  nav */
+.navbar{
+  background-color: #6C5B7B ;
+  padding: 1% 0;
+  font-size: 1.2em;
+}
+.navbar-brand{
+  min-height: 50px;
+  padding: 0 20px 5px;
+
+}
+
+.navbar-nav li{
+  display: inline-block;
+  margin-left: 20px;
+}
+.navbar-nav li a{
+  color:white;
+  text-decoration: none;
+  font-size: 90%;
+  font-weight: bold;
+}
+.navbar-nav li a:hover{
+  color:#e67e22;
+  border-bottom: 2px solid #e67e22;
+  transition: all 0.3s ease-in;
+  padding: 15px ;
+}
+
+
+/* end  nav */
+
+/* start home  */
+
+.hero
+{
+
+    position: absolute;
+    width: 1140px;
+    top: 50%;
+    left:50%;
+    transform: translate(-50% ,-50%);
+}
+header
+{
+
+  background-image: linear-gradient(rgba( 0, 0, 0,0.7),rgba( 0, 0, 0,0.7)),url(img/img6.jpg);
+  height: 100vh;
+  background-position: center;
+  background-size: cover;
+}
+h1{
+  color: white;
+}
+
+.btn
+{
+  border: 1px solid   #e67e22;
+  padding: 10px 30px;
+  color: #e67e22;
+  text-decoration: none;
+  border-radius: 12px;
+  margin-right: 20px;
+}
+
+.button-awesome
+{
+  margin-top: 50px;
+
+}
+
+.btn-full-half:hover
+{
+  background-color: #e67e22;
+  color: white;
+  transition: all 0.5s ease-in;
+}
+
+/* End home   */
+
+/* start menu */
+
+
+
+
+
+
+
+
+
+/* End menu   */

@@ -1,0 +1,141 @@
+html,body{
+  height: 100%;
+  width: 100%;
+}
+
+/*start  nav */
+.navbar{
+  background-color: #6C5B7B ;
+  padding: 1% 0;
+  font-size: 1.2em;
+}
+.navbar-brand{
+  min-height: 50px;
+  padding: 0 20px 5px;
+
+}
+
+.navbar-nav li{
+  display: inline-block;
+  margin-left: 20px;
+}
+.navbar-nav li a{
+  color: black;
+  text-decoration: none;
+  font-size: 90%;
+  font-weight: bold;
+}
+.navbar-nav li a:hover{
+  color:#e67e22;
+  border-bottom: 2px solid #e67e22;
+  transition: all 0.3s ease-in;
+  padding: 15px ;
+}
+
+
+/* end  nav */
+
+/* start home  */
+#home{
+  background: url("img/head1.jpg") no-repeat center center fixed;
+  display: table;
+  height: 100%;
+  width: 100% ;
+  position: relative;
+  background-size: cover;
+
+}
+
+.landing-text{
+  display: table-cell;
+  text-align: center;
+  vertical-align: middle;
+  color: white;
+}
+
+landing-text h1{
+  font-size: 500%;
+  font-weight: 700;
+}
+
+
+/* service   */
+.card{
+      margin-top:30px;
+      margin-bottom:20px;
+      position: relative;
+    }
+
+  a{
+      color: white;
+      font-size: 20px;
+      font-family: sans-serif;
+    }
+    .row{
+ margin: auto;
+}
+
+
+
+/* start footer */
+
+footer{
+    bottom: 0px;
+    width: 100%;
+    color: #d9d9d9;
+    box-sizing: border-box;
+    background: #232526;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #414345, #232526);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #414345, #232526); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+
+}
+
+.main-content{
+  display: flex;
+
+}
+
+.main-content .box{
+  flex-basis: 50%;
+  padding: 10px 20px ;
+}
+
+.box h2{
+  font-size: 1.125rem;
+  font-weight:600;
+  text-transform: uppercase;
+
+}
+
+.box .content{
+  margin: 20px 0 0 0 ;
+
+}
+.left .content .social{
+    margin: 20px 0 0 0 ;
+}
+
+.left .content .social a {
+  padding: 0 2px;
+
+
+}
+
+.left .content .social a span {
+  height:40px;
+  width:40px;
+  background: #1a1a1a;
+  line-height: 40px;
+  text-align: center;
+  font-size: 18px;
+  border-radius: 5px;
+  transition: 0.3s;
+  color: #FFF;
+}
+.left .content .social a span:hover{
+  background: #f12020;
+
+}
+
+/* end footer */

@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+
+    <meta charset="utf-8">
+    <title></title>
+
+    <!-- CSS Bootstrab only -->
+   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+
+    <!-- CSS page -->
+    <link rel="stylesheet" href="profile_Style.css">
+
+    <!-- social media icons link-->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+  </head>
+  <body>
+    <!-- Navbar  -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <a class="navbar-brand" href="#">Atlanta Service</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#NavDropdown" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"> </span>
+      </button>
+      <div class="collapse navbar-collapse" id="NavDropdown">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">My Profile </a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              My Booking
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+              <a class="dropdown-item" href="../MainPage/Medical/Booking/EditDelelte/NewBooking.html">Cancel Book</a>
+              <a class="dropdown-item" href="../MainPage/Medical/Booking/EditDelelte/NewBooking.html">Change Book</a>
+            </div>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Settings</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Logout</a>
+          </li>
+        </ul>
+      </div>
+      </nav>
+
+      <!--End Nav -->
+
+
+<!-- About me Information -->
+
+    <div id="About">
+      <div class="container">
+        <div class="row">
+          <div class="col">
+            <div id="AboutData">
+                <div class="card bg-white">
+                  <div class="card-title my-5">
+                    <div class="media">
+                      <img src="img/imgp11.png" width="250" height="250" class="img-fluid rounded-top mx-5 " >
+                      <div class="media-body">
+                        <h3 class="display-4">Doctor Name</h3>
+                        <p class="text-muted"> Cosmetic doctor </p>
+                        <div class="container">
+                          <table class="table tabel-responsive ml-3">
+                            <tr>
+                              <td>Nationality</td>
+                              <td>:</td>
+                              <td>Syrian</td>
+                            </tr>
+                            <tr>
+                              <td>Phone</td>
+                              <td>:</td>
+                              <td>+90 531 111 11 11</td>
+                            </tr>
+                            <tr>
+                              <td>Mail</td>
+                              <td>:</td>
+                              <td>Doctor@gmail.com</td>
+                            </tr>
+                            <tr>
+                              <td>Rating</td>
+                              <td>:</td>
+                              <td >
+                                  <span class="fa fa-star checked"></span>
+                                  <span class="fa fa-star checked"></span>
+                                  <span class="fa fa-star checked"></span>
+                                  <span class="fa fa-star checked"></span>
+                                  <span class="fa fa-star"></span>
+
+                              </td>
+                            </tr>
+                            <tr>
+                              <td><button class="btn btn-primary " onclick= "Avalible()"> Check Availability</button></td>
+                              <td>:</td>
+                              <td id="demo"></td>
+                            </tr>
+                            <tr>
+                            <td><a href="../Medical/Booking/New/NewBooking.html" target="_blank"><button class ="btn btn-primary">New Booking</button></a></td>
+                              <td>:</td>
+                            </tr>
+                          </table>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class=" card-footer bg-primary " >
+                    <a href="#"><i class="fa fa-facebook fa-2x mx-3"></i></a>
+                    <a href="#"><i class="fa fa-twitter fa-2x mx-3"></i></a>
+                    <a href="#"><i class="fa fa-youtube fa-2x mx-3"></i></a>
+                    <a href="#"><i class="fa fa-linkedin fa-2x mx-3"></i></a>
+                  </div>
+                  </div>
+              </div>
+           </div>
+         </div>
+      </div>
+      <div class="container mt-5">
+        <div class="row">
+          <div class="col">
+            <span class="bg-primary text-white">About Me</span><hr class="bg-primary">
+            <p class="lead text-justify">I am always enthusiastic to learn more, and gain experiences from participating in projects, communicate with team members and spread knowledge. I am also interested in Information security and network security also web application development I am developing my skills in web applications and am looking forward to becoming a penetration tester</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Avalible functions -->
+    <script>
+      function Avalible() {
+          var str = "Avalible You can make this service ";
+          var green = str.fontcolor("green");
+          document.getElementById("demo").innerHTML = green;
+        }
+
+        function NotAvalible() {
+            var str = "Not Avalible! you can not make this service";
+            var red = str.fontcolor("red");
+            document.getElementById("demo").innerHTML = red;
+          }
+    </script>
+
+
+
+
+<!-- JS, Popper.js, and jQuery -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+
+  </body>
+  </html>

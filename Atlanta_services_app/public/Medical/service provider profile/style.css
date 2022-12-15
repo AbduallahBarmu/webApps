@@ -1,0 +1,160 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,700&display=swap');
+
+
+
+html,body{
+  height: 100%;
+  width: 100%;
+  font-size: 17px;
+
+}
+
+
+
+/*start  nav */
+.navbar{
+  background-color: #6C5B7B ;
+  padding: 1% 0;
+  font-size: 1.2em;
+}
+.navbar-brand{
+  min-height: 50px;
+  padding: 0 20px 5px;
+
+}
+
+/*End  nav */
+
+/* start Profile */
+
+h3 {
+  text-align:center;
+  font-size: 25px;
+  font-weight: 700;
+  margin-bottom: 35px;
+  color: #f7797d;
+
+}
+
+h4{
+  font-size: 10px;
+  color: #f7797d;
+  text-transform: uppercase;
+}
+
+  #Header a:hover{
+  color: #fff;
+  }
+
+  #About{
+    margin-top: 3%;
+
+  }
+
+  #About span{
+    padding: 10px 20px 10px 20px ;
+  }
+
+  /* End Profile */
+
+
+
+.row {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  margin: 0 -10px;
+}
+
+
+
+ .title{
+    font-size: 30px;
+    font-weight: 700;
+    margin-bottom: 25px ;
+    color: black;
+    text-transform: uppercase;
+    text-align: center;
+
+  }
+  .container{
+    margin-top: 20px;
+  }
+
+
+
+  tr:hover {
+    background-color: #f5f5f5;
+  }
+
+
+
+
+
+  input[type=text] {
+      width: 100%;
+      margin-bottom: 20px;
+      padding: 12px;
+      border: 1px solid #ccc;
+      border-radius: 3px;
+      border: 1px solid gray;
+
+
+  }
+
+  label {
+    margin-bottom: 10px;
+    display: block;
+      font-family: 'Montserrat', sans-serif;
+  }
+
+
+
+  .btn {
+    background: #FBD786;
+    color: white;
+    padding: 12px;
+    margin: 10px 0;
+    border: none;
+    width: 50%;
+    border-radius: 3px;
+    cursor: pointer;
+    font-size: 17px;
+
+
+  }
+
+  .btn:hover {
+    background-color: #f7797d;
+  }
+
+  .center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+
+  a {
+    color: #2196F3;
+  }
+
+  hr {
+    border: 1px solid lightgrey;
+  }
+
+
+  .icon-container {
+    margin-bottom: 20px;
+    padding: 7px 0;
+    font-size: 24px;
+  }
+
+/* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other (also change the direction - make the "cart" column go on top) */
+@media (max-width: 800px) {
+  .row {
+    flex-direction: column-reverse;
+  }
+
+}
